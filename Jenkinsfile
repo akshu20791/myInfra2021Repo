@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url 'https://github.com/akshu20791/myInfra2021Repo'
+                git url: 'https://github.com/akshu20791/myInfra2021Repo'
             }
         }
     
