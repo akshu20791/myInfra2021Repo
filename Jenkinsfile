@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
+                git url 'https://github.com/akshu20791/myInfra2021Repo'
             }
         }
     
